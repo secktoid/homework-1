@@ -1,0 +1,22 @@
+.moreContent {
+  min-height: 400px;
+  width: 100%;
+  background-color: rgb(104, 104, 104);
+  display: flex;
+  float: left;
+  justify-content: center;
+
+  .imageBox {
+    margin: 25px;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-width: 150px;
+    }
+  }
+}

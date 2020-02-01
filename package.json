@@ -1,0 +1,21 @@
+{
+  "name": "homeworkone",
+  "version": "1.0.0",
+  "description": "First homework",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "process": "node-sass scss/main.scss css/main.css -w"
+  },
+  "author": "Logan Robbins",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "process": "^0.11.10"
+  }
+}
